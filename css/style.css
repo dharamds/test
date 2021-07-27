@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'work_sansregular';
+    src: url('../fonts/worksans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/worksans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'work_sanssemibold';
+    src: url('../fonts/worksans-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/worksans-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'work_sansbold';
+    src: url('../fonts/worksans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/worksans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{font-family: 'work_sansregular'; margin: 0; padding: 0;}
+p{ color: #838383; font-size: 16px;} 
+h1{ font-family: 'work_sanssemibold'; padding: 10px 0; font-size: 38px;}
+.form-control{ border-radius: 0; border: solid 1px #dbdbdb; background:#f9f9f9; padding: 15px;}
+.form-control:focus{ box-shadow: none; border-color: #0c293c;}
+.form-group{ margin: 0 0 20px;}
+.input-group-text{ border-radius: 0; border: solid 1px #dbdbdb; background:#f9f9f9; padding: 15px 20px;}
+.btn-primary{ background-color:#0c293c; border:0; border-radius: 0; padding: 13px 10px; font-size: 18px; position: relative; }
+.btn-primary:hover{ background-color: #ff9900; }
+.btn-primary:after{ content: ""; background: url(../images/button-bg.png); position: absolute; right: 0; bottom: 0; width: 71px; height: 29px;}
+
+.top-banner{background: url(../images/banner-bg.jpg); background-size: cover; width: 100%; height: 858px;}
+.banner-lady{ padding: 50px 0 0;}
+.banner-lady img{}
+.banner-text{ text-align: right; padding: 80px 0 40px;}
+.banner-text h1{ color: #fff; padding: 10px 0; }
+.banner-text h1 span{ color: #ff9900;}
+
+.form-box{ background:#fff; padding: 35px; max-width: 550px; float: right; width: 100%; }
+.form-box h2{ font-size: 28px; color: #0c293c; line-height: 37px; padding: 0 0 20px;}
+.form-box h3{ font-size: 16px; color: #0c293c; margin: 0; padding: 0; }
+.form-box p{ margin: 0; padding: 3px 0;}
+.form-box .btn{ margin: 20px 0 0;}
+.yellow-strip{ background: #ff9900; text-align: center; color: #fff; padding: 70px 20px 50px 20px; font-size: 30px; font-family: 'work_sanssemibold';}
+.yellow-strip span{ color:#0c293c; text-decoration: underline;}
+
+.graph-section{ padding: 100px 0; background: #fff;}
+.graph-box{ background: #fff; border-radius: 10px; box-shadow: 0px 0px 13.6px 6.4px rgba(0, 0, 0, 0.05); text-align: center; padding: 20px;}
+.graph-content{ padding: 0 0 0 40px;}
+.graph-content h1{font-family: 'work_sansbold';}
+.graph-content p{ margin: 0 0 60px 0; }
+.graph-content .btn-primary{ padding: 13px 80px; background: #ff9900;}
+.graph-content .btn-primary:hover{ background: #0c293c;}
+.graph-content .btn-primary:after{background: url(../images/button-bg-blue.png); }
+
+.calculate-section{padding: 70px 0; background: url(../images/calculation-bg.jpg); min-height: 602px;}
+.calculate-section h1{ text-align: center;}
+.calculation-box{ background: #fff; margin: 30px 0 0; padding: 50px 100px 30px 100px;}
+.investment-title{ text-align: left; font-size: 22px; padding: 10px 0 0;}
+.potencial-earnings{ text-align: center;}
+.potencial-earnings p{ font-size: 20px; color: #0c293c; margin: 0; padding: 0;}
+.potencial-earnings{}
+
+.points-section{ padding: 100px 0;}
+.points-section .intro{ text-align: center;}
+.points-box{ background: #fff; box-shadow: 0px 0px 13.6px 6.4px rgba(0, 0, 0, 0.05); border-radius: 10px; text-align: center; padding: 30px 20px; margin: 50px 0 0;} 
+.points-box h3{ font-size: 19px; color: #0c293c; padding: 30px 0 0; line-height: 25px;}
+.content-detail{ padding: 80px 0 0;}
+.content-detail h3{font-family: 'work_sansbold'; color:#0c293c; font-size: 22px; margin: 0 0 15px;}
+.content-detail p{ margin: 0 0 30px;}
+
+footer{ background: #0c293c; padding: 70px 0 0;}
+footer ul{ text-align: center; margin: 0 auto; padding: 0; color: #fff;}
+footer ul li{ margin: 0; padding: 0; display: inline-block; padding: 5px; margin: 0 15px;}
+footer ul li a{ color: #fff; text-decoration: none;}
+footer ul li a:hover{ color: #ff9900; text-decoration: underline; }
+.disclaimer{ color: #587182; text-align: center; padding: 20px 0 0; font-size: 14px;}
+.copyright{ border-top: solid 1px #253f50; text-align: center; padding: 30px; margin: 50px 0 0; color: #587182;}
+
+
+.inner-banner{ height: 120px;}
+.inner-banner .banner-text{ padding: 25px 0;} 
+.home-icon{ padding: 35px 5px 5px; position: absolute;}
+.home-icon img{ height: 50px;}
+.contact-info h3{ font-size: 20px; line-height: 30px;}
+.contact-info h3 svg{ vertical-align: middle; margin: 0px 0 0;}
+.contact-info h3 a{ color:#0c293c ; text-decoration: underline;}
+.contact-info h3 a:hover{ color:#ff9900;}
+.graph-box img{max-width: 100%}
+
+ 
+/*********************************************
+	 Media Screen css
+**********************************************/
+@media screen and (max-width: 1200px) {
+      h1 {
+    font-size:33px;
+}
+  }
+  
+
+  @media screen and (max-width: 990px) {
+    .form-box {padding: 20px 25px 25px 25px;}
+    .banner-lady{ padding: 136px 0 0;}
+    .banner-lady img{ width: 340px;}
+    .banner-text{    padding: 10px 0 10px}
+    .banner-text h1{ font-size: 20px;}
+    .banner-text img{ height:40px;}
+    .form-box{ padding: 20px;}
+    .form-box h2{font-size: 19px; line-height: 24px; padding: 0 0 5px;}
+    .form-group{    margin: 0 0 15px;}
+    .top-banner{ height: 638px;}
+    .yellow-strip{font-size: 20px; padding: 50px 20px 30px 20px;}
+    .graph-box img{ width: 100%;}
+    .graph-content{ padding: 0 0 0 10px;}
+    .graph-content h1{ font-size: 22px;}
+    .graph-content .btn-primary{padding: 13px 15px;}
+    h1{ font-size:26px;}
+    .calculate-section{  min-height: 482px;  padding: 50px 0;}
+    .calculation-box{padding: 40px 20px 20px;}
+    .investment-title{font-size: 17px; padding: 14px 0 0;}
+    .points-section{padding: 60px 0;}
+    .points-box{margin: 30px 0 0;}
+    .points-box h3{font-size: 16px;}
+    .points-box h3 br{ display: none;}
+  }  
+  
+  @media screen and (max-width: 767px) {
+    .top-banner{ height: auto; padding: 0 0 30px;}
+    .banner-lady {position: absolute; left: 10px; top: 10px; padding: 0; z-index: 0;}
+    .banner-lady img{ width: 180px;}
+    .form-box { padding: 20px; z-index: 999; position: relative; }
+    .banner-text{ padding: 10px 0 30px; position: relative; z-index: 999;}
+    .banner-text h1{font-size: 24px;}
+    .banner-text img{ height: 60px;}
+    .yellow-strip{padding: 30px;}
+    .graph-section{ padding: 70px 0;}
+    .graph-content{ padding: 30px 0 30px;}
+    .graph-content .btn-primary{ width: 100%;}
+    h1{ font-size: 22px; line-height: 28px;}
+    .potencial-earnings{ padding: 15px 0 0;}
+    footer ul li{ margin: 0 10px;}
+  }
+  
+  @media screen and (max-width: 600px) {
+    .banner-text h1{    font-size: 20px;}
+    .top-banner{ padding: 20px;}
+    .graph-section{ padding: 70px 20px;}
+    .calculate-section, .points-section, footer{ padding: 50px 20px;}
+    footer{padding-bottom: 0;}    
+  }
+  
+  @media screen and (max-width: 480px) {
+    .banner-text{ padding: 30px 0 30px;}
+    .banner-text h1{font-size: 26px;}
+    .top-banner{ padding: 15px;}
+    .graph-section{ padding: 70px 15px;}
+    .calculate-section, .points-section, footer{ padding: 50px 15px;}
+    footer{padding-bottom: 0;}    
+  }
+  
+  @media (max-width : 320px) {
+    
+  }
